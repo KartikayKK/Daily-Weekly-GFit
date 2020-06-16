@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_alignParentLeft="true"
+        android:layout_width="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_baseline_directions_walk_24"/>
+    <TextView
+        android:layout_marginTop="65dp"
+        android:layout_marginStart="60dp"
+        android:id="@+id/steps"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello" />
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_alignParentLeft="true"
+        android:layout_width="60dp"
+        android:layout_marginTop="200dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_baseline_theaters_24"/>
+    <TextView
+        android:layout_marginTop="215dp"
+        android:layout_marginStart="60dp"
+        android:id="@+id/distance"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello" />
+    <ImageView
+        android:layout_alignParentLeft="true"
+        android:layout_width="54dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="350dp"
+        android:layout_height="54dp"
+        android:src="@drawable/ic_baseline_fastfood_24"/>
+    <TextView
+        android:layout_marginTop="365dp"
+        android:layout_marginStart="60dp"
+        android:id="@+id/calories"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello" />
+
+</RelativeLayout>
